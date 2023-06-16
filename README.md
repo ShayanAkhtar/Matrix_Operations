@@ -1,23 +1,42 @@
-# Matrix_Operations
+# Operations on Matrices
 
--TRANSPOSE
--SUM OF ROWS AND COLUMNS
--BINARY OPERATIONS
+This repository contains a C++ program that performs various operations on matrices. It provides functionalities such as matrix transpose, sum of rows and columns, and binary operations on matrices (multiplication, addition, and subtraction).
 
-This program is written in C++ and provides various operations on matrices. It allows users to perform operations such as transposing a matrix, calculating the sum of rows and columns, and performing binary operations (multiplication, addition, and subtraction) on two matrices.
+## Program Overview
 
-Features:
-1. Matrix Input: Users can input matrices by specifying the number of rows and columns and entering the elements of the matrix.
-2. Matrix Display: Matrices can be displayed on the console, showing the elements in a tabular format.
-3. Matrix Transpose: The program can calculate the transpose of a given matrix.
-4. Sum of Rows and Columns: Users can calculate the sum of each row and column in a matrix.
-5. Binary Operations: The program allows users to perform binary operations on two matrices, including matrix multiplication, addition, and subtraction.
+The program is structured as follows:
 
-Usage:
-1. Input Matrix: Enter the number of rows and columns for each matrix and provide the elements.
-2. Transpose: Select option 1 to calculate the transpose of a matrix.
-3. Sum of Rows and Columns: Choose option 2 to calculate the sum of rows and columns in a matrix.
-4. Binary Operations: Select option 3 to perform binary operations on two matrices. You can multiply, add, and subtract matrices.
-5. Exit: Enter option 5 to exit the program.
+- The user is prompted to choose an operation to perform on matrices.
+- If the user selects the transpose operation, the program takes input for a matrix and displays its transpose.
+- If the user selects the sum of rows and columns operation, the program takes input for a matrix and calculates the sum of each row and column.
+- If the user selects the binary operations on matrices, the program takes input for two matrices and provides a menu to perform multiplication, addition, or subtraction between the matrices.
+- The program validates inputs and handles errors for incompatible matrix sizes.
 
-This program is helpful for computer science students and developers working with matrices. It demonstrates concepts of matrix manipulation and provides a practical implementation in C++.
+## Usage
+
+To use this program, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Compile the C++ program using a C++ compiler (e.g., g++).
+3. Run the compiled program.
+4. Follow the on-screen instructions to choose and perform operations on matrices.
+
+## Dependencies
+
+This program does not have any external dependencies and can be compiled and run using a standard C++ compiler.
+
+## Contributing
+
+Contributions to this project are welcome. If you have any ideas, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+
+## License
+
+This program is released under the [MIT License](LICENSE). Feel free to modify and distribute it as per the terms of the license.
+
+## Acknowledgments
+
+This program was developed as a final project for the BS-CS-1(C) class by Shayan Akhtar.
+
+If you have any questions or need further information, please don't hesitate to contact us.
+
+Happy matrix operations!
