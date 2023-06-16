@@ -1,5 +1,9 @@
 # Matrix_Operations
 
+-TRANSPOSE
+-SUM OF ROWS AND COLUMNS
+-BINARY OPERATIONS
+
 This program is written in C++ and provides various operations on matrices. It allows users to perform operations such as transposing a matrix, calculating the sum of rows and columns, and performing binary operations (multiplication, addition, and subtraction) on two matrices.
 
 Features:
